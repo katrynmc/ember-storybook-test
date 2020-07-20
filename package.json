@@ -33,6 +33,7 @@
     "@storybook/addon-links": "^5.3.19",
     "@storybook/addons": "^5.3.19",
     "@storybook/ember": "^5.3.19",
+    "@storybook/ember-cli-storybook": "^0.2.1",
     "babel-eslint": "^10.0.3",
     "babel-loader": "^8.1.0",
     "broccoli-asset-rev": "^3.0.0",
