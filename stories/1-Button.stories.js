@@ -14,13 +14,6 @@ export const Text = () => ({
 
 export const Emoji = () => ({
   template: hbs`
-    <button {{action onClick}}>
-      <span role="img" aria-label="so cool">
-        😀 😎 👍 💯
-      </span>
-    </button>
-  `,
-  context: {
-    onClick: action('clicked'),
-  },
+    <StoryTest@Button @buttonLabel="Foo" />
+  `
 });

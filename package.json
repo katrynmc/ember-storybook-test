@@ -19,7 +19,7 @@
     "start": "ember serve",
     "test": "ember test",
     "test:all": "ember try:each",
-    "storybook": "start-storybook -p 6006 -s dist",
+    "storybook": "ember serve & start-storybook -p 6006 -s dist",
     "build-storybook": "build-storybook -s dist"
   },
   "dependencies": {
