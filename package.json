@@ -18,15 +18,23 @@
     "lint:js": "eslint .",
     "start": "ember serve",
     "test": "ember test",
-    "test:all": "ember try:each"
+    "test:all": "ember try:each",
+    "storybook": "start-storybook -p 6006 -s dist",
+    "build-storybook": "build-storybook -s dist"
   },
   "dependencies": {
     "ember-cli-babel": "^7.11.1",
     "ember-cli-htmlbars": "^4.0.0"
   },
   "devDependencies": {
+    "@babel/core": "^7.10.5",
     "@ember/optional-features": "^1.0.0",
+    "@storybook/addon-actions": "^5.3.19",
+    "@storybook/addon-links": "^5.3.19",
+    "@storybook/addons": "^5.3.19",
+    "@storybook/ember": "^5.3.19",
     "babel-eslint": "^10.0.3",
+    "babel-loader": "^8.1.0",
     "broccoli-asset-rev": "^3.0.0",
     "ember-cli": "~3.13.1",
     "ember-cli-dependency-checker": "^3.1.0",
